@@ -103,7 +103,7 @@ An introductory project on:
   * script should be maximum 98 characters long
 
 
-**[10. Linked list cycle](10-check_cycle.c, lists.h)** - Technical interview preparation:
+**[10-Linked list cycle.c](10-check_cycle.c, lists.h)** - Technical interview preparation:
 
 You are not allowed to google anything
 Whiteboard first
