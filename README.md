@@ -1,141 +1,64 @@
-# 0x00. Python - Hello, World
+<img src="https://rajivpandit.files.wordpress.com/2013/02/python.png" width="600">
+
+# Higher-level programming
+
+## Welcome
+Thank you for visiting my programming projects. The majority of the code was written in Python3, with a few projects written in bash, MySQL, or JavaScript.
+
+## Table of Contents
+* [About](#about)
+* [Requirements](#requirements)
+* [Projects](#projects)
+* [Credits](#credits)
 
 ## About
-
-An introductory project on:
-
-- How to use the Python interpreter
-
-- How to print text and variables using `print`
-
-- How to use strings
-
-- Indexing and slicing in Python
-
-- How to check your code with `PEP 8`
+This repository contains introductory projects for higher-level programming. Topics include:
+- Commenting code and following a coding style standard
+- Variables, data structures, operators, expressions, loops, nested loops
+- Conditional statements
+- Functions
+- Importing
+- Exceptions
+- Unit Testing
+- Classes and inheritance
+- Python IO
+- SQL and SQLAlchemy
+- Requests and web scraping
+and more!
 
 ## Requirements
-
-- Python 3.4
-
-- pep8 1.7
-
-## File Descriptions
-
-### Mandatory
-
-**[0-run](0-run)** - Write a Shell script that runs a Python script. The Python file name will be saved in the environment variable `$PYFILE`.
-
-
-
-**[1-run_inline](1-run_inline)** - Write a Shell script that runs Python code. The Python code will be saved in the environment variable `$PYCODE`.
-
-
-
-**[2-print.py](2-print.py)** - Write a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
-
-
-
-**[3-print_number.py](3-print_number.py)** - Complete the [source code](https://github.com/holbertonschool/0x00.py/blob/master/3-print_number.py) in order to print the integer stored in the variable `number`, followed by `Battery street`, followed by a new line.
-
-  * not allowed to cast the variable number into a string
-
-  * code must be 3 lines long
-
-  * have to use the [(new print formatting)](https://pyformat.info/#number)
-
-
-
-**[4-print_float.py](4-print_float.py)** - Complete the [source code](https://github.com/holbertonschool/0x00.py/blob/master/4-print_float.py) in order to print the float stored in the variable `number` with a precision of 2 digits.
-
-  * not allowed to cast `number` to a string
-
-  * have to use the [(new print formatting)](https://pyformat.info/#number)
-
-
-
-**[5-print_string.py](5-print_string.py)** - Complete the [source code](https://intranet.hbtn.io/rltoken/SsZaCpUT5-6nybzBeUkHyw) in order to print a string stored in the variable `str` three times, followed by a new line, followed by its first 9 characters and a new line.
-
-  * not allowed to use any loops or conditional statements
-
-  * program should be maximum 5 lines long
-
-
-
-**[6-concat.py](6-concat.py)** - Complete the [source code](https://github.com/holbertonschool/0x00.py/blob/master/6-concat.py) in order to print `Welcome to Holberton School!`
-
-  * not allowed to use any loops or conditional statements
-
-  * have to use the variables str1 and str2 in your new line of code
-
-  * program should be exactly 5 lines long
-
-
-
-**[7-edges.py](7-edges.py)** - Complete the [source code](https://github.com/holbertonschool/0x00.py/blob/master/7-edges.py) such that:
-
-  * `word_first_3` contains the first 3 letters of the variable `word`
-
-  * `word_last_2` contains the last 2 letters of the variable `word`
-
-  * `middle_word` contains the value of the variable `word` without the first and last letters
-
-  * not allowed to use any loops or conditional statements
-
-  * program should be exactly 8 lines long
-
-
-
-**[8-concat_edges.py](8-concat_edges.py)** - Complete the [source code](https://github.com/holbertonschool/0x00.py/blob/master/8-concat_edges.py) in order to print `object-oriented programming with Python`, followed by a new line.
-
-  * not allowed to use any loops or conditional statements
-
-  * program should be exactly 5 lines long
-
-  * not allowed to create new variables
-
-  * not allowed to use string literals
-
-
-
-**[9-easter_egg.py](9-easter_egg.py)** - Write a Python script that prints "The Zen of Python", by TimPeters, followed by a new line.
-
-  * script should be maximum 98 characters long
-
-
-
-### Advanced
-
-**[100-write.py](100-write.py)** - Write a Python script that prints exactly `and that piece of art is useful - Dora Korpar, 2015-10-19`, followed by a new line.
-
-  * Use the function `write` from the `sys` module
-
-  * not allowed to use `print`
-
-  * script should print to `stderr`
-
-  * script should exit with the status code `1`
-
-
-
-**[101-compile](101-compile)** - Write a script that compiles a Python script file. The Python file name will be stored in the environment variable `$PYFILE`. The output filename has to be `$PYFILEc` (ex: `export PYFILE=my_main.py` => output filename: `my_main.pyc`)
-
-
-
-**[102-magic_calculation.py](102-magic_calculation.py)** - Write a Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
-
-```
-
- 3		0 LOAD_CONST               1 (98)
-
-              	3 LOAD_FAST                0 (a)
-
-              	6 LOAD_FAST                1 (b)
-
-              	9 BINARY_POWER
-
-             	10 BINARY_ADD
-
-             	11 RETURN_VALUE
-
-```
+* Ubuntu 14.04 LTS
+* Python 3.4
+* pip3 1.5
+* pep8 1.7
+* MySQL 5.7
+* MySQLdb 1.3
+* SQLAlchemy 1.1
+* node 6.10
+* semistandard 11.0
+
+## Projects
+1. [0x00-python-hello_world](./0x00-python-hello_world)
+2. [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions)
+3. [0x02-python-import_modules](./0x02-python-import_modules)
+4. [0x03-python-data_structures](./0x03-python-data_structures)
+5. [0x04-python-more_data_structures](./0x04-python-more_data_structures)
+6. [0x05-python-exceptions](./0x05-python-exceptions)
+7. [0x06-python-classes](./0x06-python-classes)
+8. [0x07-python-test_driven_development](./0x07-python-test_driven_development)
+9. [0x08-python-more_classes](./0x08-python-more_classes)
+10. [0x09-python-everything_is_object](./0x09-python-everything_is_object)
+11. [0x0A-python-inheritance](./0x0A-python-inheritance)
+12. [0x0B-python-input_output](./0x0B-python-input_output)
+13. [0x0C-python-almost_a_circle](./0x0C-python-almost_a_circle)
+14. [0x0D-SQL_introduction](./0x0D-SQL_introduction)
+15. [0x0E-SQL_more_queries](./0x0E-SQL_more_queries)
+16. [0x0F-python-object_relational_mapping](./0x0F-python-object_relational_mapping)
+17. [0x10-python-network_0](./0x10-python-network_0)
+18. [0x11-python-network_1](./0x11-python-network_1)
+19. [0x12-javascript-warm_up](./0x12-javascript-warm_up)
+20. [0x13-javascript_objects_scopes_closures](./0x13-javascript_objects_scopes_closures)
+21. [0x14-javascript-web_scraping](./0x14-javascript-web_scraping)
+
+## Credits
+Work is owned and maintained by Selina Nancy
