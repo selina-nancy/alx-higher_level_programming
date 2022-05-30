@@ -103,7 +103,7 @@ An introductory project on:
   * script should be maximum 98 characters long
 
 
-**[10-Linked list cycle.c](10-check_cycle.c, lists.h)** - Technical interview preparation:
+**[10-Linked list cycle.c](10-check_cycle.c)** - Technical interview preparation:
 
 You are not allowed to google anything
 Whiteboard first
@@ -115,6 +115,7 @@ Return: 0 if there is no cycle, 1 if there is a cycle
 Requirements:
 
 Only these functions are allowed: write, printf, putchar, puts, malloc, free
+**[lists.h](lists.h)** - Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
 
 
 ### Advanced
