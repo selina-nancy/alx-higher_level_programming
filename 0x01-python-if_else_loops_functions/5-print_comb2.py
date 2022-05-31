@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print(*(map("{:02d}".format, range(100))), sep=", ")
+for i in range(0, 99):
+    print("{:02d}".format(i), end=', ')
+    print("{:02d}".format(i + 1))
