@@ -61,4 +61,4 @@ and more!
 21. [0x14-javascript-web_scraping](./0x14-javascript-web_scraping)
 
 ## Credits
-Work is owned and maintained by Selina Nancy
+Work is owned and maintained by Selina Nancy (@selina_nancy).
