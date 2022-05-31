@@ -115,11 +115,16 @@ Return: 0 if there is no cycle, 1 if there is a cycle
 Requirements:
 
 Only these functions are allowed: write, printf, putchar, puts, malloc, free
+<<<<<<< HEAD
 
 
 **[lists.h](lists.h)** - Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
 
 
+=======
+**[lists.h](lists.h)** - Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
+
+>>>>>>> 64218442bcb9840f3380709cfbd0ee12c6d5c3c6
 
 ### Advanced
 
