@@ -1,15 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
+ * is_palindrome - check if a singly linked list of integer is palindrome
+ * @head: pointer first element of the linked list.
  *
- * Return: Always 0.
+ * Return: 1 if the singly linked list is palidrome, 0 otherwise.
  */
-int main(void)
+int is_palindrome(listint_t **head)
 {
-	listint_t *head;
+	listint_t *tmp = *head;
+	int arr[5000];
+	int idx, count;
 
-	return (0);
+	idx = count = 0;
+	if (!*head)
+		return (1);
+	for (; tmp; tmp = tmp->next, idx++)
+		arr[idx] = tmp->n;
+	for (; idx > count; idx--, count++)
+	{
+		if (arr[idx - 1] != arr[count])
+			return (0);
+	}
+	return (1);
 }
