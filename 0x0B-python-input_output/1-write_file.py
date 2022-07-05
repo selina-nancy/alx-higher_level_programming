@@ -1,15 +1,10 @@
 #!/usr/bin/python3
-""" Module that contains a function that returns the number of lines
-    of a text file
+"""
+Contains the function "wrtie_file"
 """
 
 
-def number_of_lines(filename=""):
-    """
-    function that returns the number of lines of a text file
-    """
-    count = 0
-    with open(filename, 'r') as f:
-        while f.readline() is not '':
-            count += 1
-        return count
+def write_file(filename="", text=""):
+    """returns the number of chars written to "filename" from "text" """
+    with open(filename, 'w', encoding='utf=8') as f:
+        return f.write(text)
