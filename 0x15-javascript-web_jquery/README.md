@@ -32,7 +32,7 @@ Please test with this [HTML file](html_files/0-main.html) in your browser:
       First HTML page
     </header>
     <footer>
-      Holberton School - 2017
+      Holberton School - 2022
     </footer>
     <script type="text/javascript" src="0-script.js"></script>
   </body>
